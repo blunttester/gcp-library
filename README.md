@@ -1,7 +1,3 @@
-Certainly! A well-structured README is crucial for engaging the community and encouraging usage and contributions to your project. Below is a template for your README.md that outlines your project's purpose, how to install it, how to use it, and how to contribute. You should personalize the details to match your project's specifics and goals.
-
----
-
 # GCP Library
 
 The GCP Library is an open source keyword library designed to simplify automated testing of Google Cloud Platform (GCP) resources. With this library, users can easily create Robot Framework tests to verify the setup and configuration of various GCP resources, including VM instances, Pub/Sub topics, schemas and subscriptions, Dataflow jobs, and BigQuery datasets and tables.
@@ -65,7 +61,3 @@ To contribute:
 ## License
 
 This project is licensed under the MIT License - see the LICENSE file for details.
-
----
-
-Remember to replace placeholders like `https://github.com/yourgithubusername/gcp-robot-framework-library.git` with the actual URL of your project's repository. Additionally, customize each section to fit the specifics of your library, including installation instructions, usage examples, and contribution guidelines.
