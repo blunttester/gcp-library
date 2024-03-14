@@ -1,0 +1,4 @@
+robotframework
+google-cloud-compute
+google-cloud-pubsub
+google-cloud-bigquery
