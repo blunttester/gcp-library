@@ -1,4 +1,7 @@
 from setuptools import setup, find_packages
+"""
+The setup to handle the gcp-robot-framework-library
+"""
 
 setup(
     name='gcp-robot-framework-library',
@@ -6,7 +9,6 @@ setup(
     packages=find_packages('src'),
     package_dir={'': 'src'},
     install_requires=[
-        'docstring',
         'robotframework',
         'google-cloud-compute',
         'google-cloud-pubsub',
