@@ -6,6 +6,7 @@ setup(
     packages=find_packages('src'),
     package_dir={'': 'src'},
     install_requires=[
+        'docstring',
         'robotframework',
         'google-cloud-compute',
         'google-cloud-pubsub',
