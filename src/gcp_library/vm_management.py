@@ -2,6 +2,9 @@ from robot.api.deco import keyword
 from google.cloud import compute_v1
 
 class VMManagement:
+    """
+    This module is used for managing virtual machines in Google Cloud Platform.
+    """
     def __init__(self):
         self.compute_client = compute_v1.InstancesClient()
 
@@ -28,7 +31,10 @@ class VMManagement:
         instance.network_interfaces = [network_interface]
 
         # Create the instance.
-        operation = self.compute_client.insert(project=project_id, zone=zone, instance_resource=instance)
+        operation = self.compute_client.insert(
+            project=project_id,
+            zone=zone,
+            instance_resource=instance)
         return operation.result()
 
     @keyword("List VM Instances")

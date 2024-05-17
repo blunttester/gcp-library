@@ -1,4 +1,7 @@
 from setuptools import setup, find_packages
+"""
+The setup to handle the gcp-robot-framework-library
+"""
 
 setup(
     name='gcp-robot-framework-library',
